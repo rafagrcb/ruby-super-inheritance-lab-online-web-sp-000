@@ -1,15 +1,11 @@
-class Student < User
+class Student
 
-  attr_accessor :knowledge
-
-  def initialize
-    @knowledge = []
+  def hello
+    puts "Hey there! I'm so excited to learn stuff."
   end
 
-  def learn(knowledge)
-    @knowledge << knowledge
+  def raise_hand
+    puts "Pick me!"
   end
 
-  def knowledge
-    @knowledge
-  end
+end
